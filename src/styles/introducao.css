@@ -1,0 +1,52 @@
+.container-introducao{
+    background-color: #F6F6F6;
+}
+
+.conteudo-introducao{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 6em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.introducao-nome{
+    color: #D904A0;
+}
+
+.btn-contato-introducao{
+    background-color: #D904A0;
+    border: 1px solid #D904A0;
+    border-radius: 2em;
+    color: #fff;
+    padding: 0.6em 1.2em;
+    margin: 2em 0em;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.95px 3.95px 2.6px;
+    cursor: pointer;
+}
+
+.imagem-redonda-container {
+    width: 15em;
+    height: 15em;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.15) 3.95px 4.95px 2.6px;
+/* Adicionando a sombra no próprio container */
+}
+
+.imagem-redonda-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+}
+.icons img{
+    width: 2em;
+    margin: 1em 0.8em;
+}
+

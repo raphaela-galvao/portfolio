@@ -1,0 +1,38 @@
+.container-header{
+    background-color: #fff;
+}
+.conteudo-header{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1em 2em;
+}
+.conteudo-header ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.conteudo-header ul li,
+.conteudo-header ul li button{
+    margin: 0px 0px 0px 24px;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.conteudo-header ul li button{
+    background-color: #fff;
+    border: 1px solid #D904A0;
+    border-radius: 1em;
+    margin: 0px;
+    padding: 0.2em 1em;
+    display: flex;
+    cursor: pointer;
+}
+
+.conteudo-header ul li button:hover{
+    background-color: #D904A0;
+    color: #fff;
+    transition: 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.15) 3.95px 4.95px 2.6px;
+}

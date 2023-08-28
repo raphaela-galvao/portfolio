@@ -1,0 +1,13 @@
+.container-habilidades{
+    background-color: #F6F6F6;
+}
+.conteudo-habilidades{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.textos-habilidades{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -1,0 +1,71 @@
+.container-card{
+    background-color: #fff;
+    padding: 1em;
+    border-radius: 1em;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1em 0em;
+    box-shadow: rgba(0, 0, 0, 0.15) 3.95px 4.95px 2.6px;
+}
+
+.img-card{
+    width: 25em;
+    height: 15em;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.15) 3.95px 4.95px 2.6px;
+}
+
+.img-card img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.texto-card{
+    padding: 1em 0em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icones-card {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.icones-card button {
+    display: flex;
+    align-items: center;
+    border: 1px solid #D904A0;
+    border-radius: 1em;
+    background-color: #fff;
+    margin: 2px;
+    padding: 2px 8px;
+}
+.icone-branco {
+    display: none;
+}
+
+.icones-card button:hover {
+    cursor: pointer;
+    background-color: #D904A0;
+    color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.15) 3.95px 4.95px 2.6px;
+    transition: 0.5s;
+}
+
+.icones-card button:hover .icone-preto {
+    display: none;
+}
+
+.icones-card button:hover .icone-branco {
+    display: inline-block;
+}
+
+.icones-card img {
+    width: 1.4em;
+    padding: 2px 4px;
+}
