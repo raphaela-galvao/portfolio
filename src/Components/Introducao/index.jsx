@@ -8,7 +8,7 @@ function Introducao() {
         <div className="container-introducao">
             <div className='conteudo-introducao'>
                 <div className='textos-container'>
-                    <h1>Olá<br/>Sou a <span className="introducao-nome">Raphaela</span>,<br/>Desenvolvedora FullStack  <span role="img" aria-label="Emoji menina no computador" style={{ fontSize: '2rem', color: 'white' }}>
+                    <h1>Olá<br/>Sou a <span className="introducao-nome">Raphaela</span>,<br/>Desenvolvedora FullStack | RPA <span role="img" aria-label="Emoji menina no computador" style={{ fontSize: '2rem', color: 'white' }}>
                         👩‍💻
                     </span></h1>
                     <button className='btn-contato-introducao'>Entrar em contato</button>

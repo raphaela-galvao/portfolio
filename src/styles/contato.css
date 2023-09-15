@@ -1,0 +1,64 @@
+h3{
+    font-size: 26px;
+}
+h3 span{
+    color: #D904A0;
+    margin-left: 5px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+    padding: 2em;
+    background-color: #fff;
+    margin: 1em 0em;
+    border-radius: 1em;
+}
+
+label{
+    margin: 2em 0em 0em 0em;
+}
+
+input, 
+textarea{
+    padding: 1.5em;
+    background-color: #EBEBEB;
+    border: 1px solid #EBEBEB;
+    border-radius: 0.5em;
+}
+
+.container-contato{
+    background-color: #F6F6F6;
+}
+
+.conteudo-contato{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2em 6em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-email{
+    padding: 1em;
+}
+
+.btn-contato{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-contato button{
+    padding: 1em;
+    width: 35%;
+    margin: 2em 0em;
+    background-color: #D904A0;
+    color: #fff;
+    font-size: 16px;
+    border: 1px solid #D904A0;
+    border-radius: 0.5em;
+}

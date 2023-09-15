@@ -28,11 +28,11 @@ const projetos = [
 
 function Portfolio() {
     return (
-        <div className="container-portfolio">
-            <div className='conteudo-portfolio'>
+        <div className='container-portfolio'>
+            <div className='conteudo-portfolio' id='projetos'>
                 <div className='titulo-portfolio'>
-                    <h2>Portfólio</h2>
-                    <h3>Conheça meus Projetos :)</h3>
+                    <h3>Projetos</h3>
+                    <p>Conheça meus Portfólio :)</p>
                 </div>
                 <div className='cards-portfolio'>
                     {projetos.map((projeto, index) => (
